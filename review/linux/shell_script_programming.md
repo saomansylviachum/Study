@@ -15,14 +15,14 @@ You may use ``$`` to read the value of the variable
 ### 2.1 Passing Arguments to a Script
 using $1 $2
 **Positional Parameters - variables**
-$0	script name
-$# 	number of command line parameters
-$*	contains all command line parameters
-$@	contains all command line arguments
+- $0	script name
+- $# 	number of command line parameters
+- $*	contains all command line parameters
+- $@	contains all command line arguments
 **Other useful variables**
-$?	exit status of the most recently executed command
-$$ - Process ID of the shell
-$! - process ID of the most recently executed background command
+- $?	exit status of the most recently executed command
+- $$ - Process ID of the shell
+- $! - process ID of the most recently executed background command
 
 ### 2.2 Interactive Script Using Read Command
 ```bash
@@ -33,7 +33,7 @@ read -p "Enter varname:" nameVar
 ```
 
 ### 2.3 Command Substitution
-Command substitution allows us to treat the output of a command as a value.(First get the value of the command and then replace the command line variable with the value)
+- Command substitution allows us to treat the output of a command as a value.(First get the value of the command and then replace the command line variable with the value)
 
 ```bash
 line=$(grep "beast" /examples/lionsInTheStreet)
@@ -108,26 +108,26 @@ if [ 5 –gt 3 ]
 fi
 ```
 **File Test**
--e name	File name exists.
--d name	File name is a directory. 
--f name 	File name is a regular file.
--h name	File name is a symbolic link.
--r name	File name exists and is readable. 
--w name	File name exists and is writeable. 
--x name	File name exists and is executable. 
--s name	File name exists and has nonzero size.
+- -e name	File name exists.
+- -d name	File name is a directory. 
+- -f name 	File name is a regular file.
+- -h name	File name is a symbolic link.
+- -r name	File name exists and is readable. 
+- -w name	File name exists and is writeable. 
+- -x name	File name exists and is executable. 
+- -s name	File name exists and has nonzero size.
 **String Test**
-s1 = s2	String s1 equals string s2 
-s1 != s2	String s1 does not equal string s2
--z  s1	String s1 has zero length 
--n  s1	String s1 has nonzero length
+- s1 = s2	String s1 equals string s2 
+- s1 != s2	String s1 does not equal string s2
+- -z  s1	String s1 has zero length 
+- -n  s1	String s1 has nonzero length
 **Numeric Test**
-n1 –eq n2	Integer n1 and n2 are equal
-n1 –ne n2	Integer n1 and n2 are not equal
-n1 –lt n2	Integer n1 is less than n2
-n1 –le n2	Integer n1 is less than or equal to n2
-n1 –gt n2	Integer n1 is greater than n2
-n1 –ge n2	Integer n1 is greater than or equal to n2
+- n1 –eq n2	Integer n1 and n2 are equal
+- n1 –ne n2	Integer n1 and n2 are not equal
+- n1 –lt n2	Integer n1 is less than n2
+- n1 –le n2	Integer n1 is less than or equal to n2
+- n1 –gt n2	Integer n1 is greater than n2
+- n1 –ge n2	Integer n1 is greater than or equal to n2
 
 #### 3.1.2 Conditional Operators
 ```bash
