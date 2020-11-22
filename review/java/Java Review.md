@@ -65,4 +65,15 @@
 
    Comparator compareTo and equals
 
-7. 
+
+# Java Advance
+1. What are 5 steps in TDD?
+Write Test
+Make the test compile
+Watch the test fail
+Write enough code to make the test pass
+Refactor and generalise
+2. Exception
+Checked Unchecked Error
+3. What does lambda do?
+Help to 
