@@ -15,3 +15,12 @@ Improve: JpaRepository
 
 2. 
 Interceptor
+
+
+# Forex exchange
+sell and buy currency
+how: 
+since we need to install the mysql server and I'm more familiar with the interceptor in the spring so I take charge of the user info and also the login logout part.
+I need to cooporate with the currency info part because we need to update the currecy holdings in the user info. 
+login logout user info: user name currency and                                                                   
+we use the spring framework to finish the project and from this experience I also learn how to cooperate with others and notice that it's really different with solo project and group project and communication is really important.
