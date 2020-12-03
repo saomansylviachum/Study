@@ -27,4 +27,4 @@ O(1)
 ### Proof
 #### Equal likelihood
 After n ≥ k items in S have been processed, each of those items is sampled with probability k/n.
-
+![proof](images/proofreservoir.jpg)
